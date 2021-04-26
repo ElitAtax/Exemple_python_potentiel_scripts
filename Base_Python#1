@@ -1,0 +1,71 @@
+print("") # afficher une message
+
+for x range(2, 100) # boucler de 2 a 100
+
+while True # c'est ne pas arreter la boucle tant que 1 == 1
+
+while confirmation != "START" or confirmation != "STOP":
+    if confirmation == "START":
+        print("C'est parti!")
+        break
+
+    elif confirmation == "STOP":
+        print("Fermeture du jeu...")
+        exit()
+    
+    else: 
+        print("Écriver START ou STOP")
+        confirmation = input("Écriver START pour démarrer> ")
+
+# il boucle avec la condition tant que confirmation est differente de start
+
+def function(nom):
+    print("Saluuuuuuuut", nom)
+
+function("sensei") 
+
+# J'attribue sensei a mon nom 
+
+------
+
+variable = int(input("Donne un chiffre entre 1 et 10"))
+
+print(varibale)
+
+# pour mettre une valeurs en nombre entier
+
+------
+
+atax = "Bonjour"
+
+print(f"Salut , {atax}")
+
+# exemple de "string" formater
+
+--------
+
+misato = float(input("Donne un nombre décimal"))
+
+feu = int(input("Donne un nombre entier chackal"))
+
+naze = str(input("Donne une phrase"))
+
+print(f"votre nombre déciaml est {misato} , et votre nombre entier est {feu},donne une phrase ta mere {naze}")
+
+#possiblités simple pour une entrée
+
+------
+#autre petit exemple
+
+nom = input("Quel est ton nom jeune renois des neiges?>")
+
+prenom = input("Quel est ton nom de famille?>")
+
+age = int(input("Quel est ton age?>"))
+
+while 1 == 1:
+    print(f"salut bg de {nom} {prenom} ça va tes jeune toi {age}")
+
+'''
+Voici quelques petites bases si vous commencez le python vous verrais c'est une bonne langue de programmation
+'''
