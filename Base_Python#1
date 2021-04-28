@@ -65,6 +65,28 @@ age = int(input("Quel est ton age?>"))
 
 while 1 == 1:
     print(f"salut bg de {nom} {prenom} ça va tes jeune toi {age}")
+ 
+ 
+--------
+
+a = input("Veuillez rentrer votre prenom > ")
+
+b = input("Veuillez aussi nous indiquer votre nom > ")
+
+c = int(input("Dite nous votre age > "))
+
+d = input("Lieu svp > ")
+
+ex = {
+    "prenom": a,
+    "nom": b,
+    "age": c,
+    "lieu": d,
+}
+
+print(ex["lieu"])
+
+# Petit script qui vous permet de voir comment les sites par exemples peuvent vous demandez vos informations 
 
 '''
 Voici quelques petites bases si vous commencez le python vous verrais c'est une bonne langue de programmation
